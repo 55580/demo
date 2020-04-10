@@ -1,0 +1,21 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+	color:#14191e;
+}
+.main{
+	width: 1200px;
+	height: 460px;
+	margin: 30px auto;
+}
+.banner-slider{
+	width: 1200px;
+	height: 460px;
+	float:left;
+}
+.slider1{
+	background-image: url(../img/bg1.jpg);
+} 

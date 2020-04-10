@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 头部样式设置 */
+.header,.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(239, 239, 239);
+    position: relative;
+    border-bottom: 1px solid rgb(36,135,201);
+}
+.header div.headerBox{
+    width: 900px;
+    height: 100px; 
+    margin: 0 auto;
+}
+img.logo{
+    transform: scale(0.82);
+    margin-top: -3px;
+    margin-left: -10px;
+}
+ul.list{
+    float: right;
+    list-style: none;
+    text-align: center;
+    line-height: 100px;
+    font-size: 12px;
+}
+ul.list li{
+    float: left;
+    margin-left: 20px;
+    height: 100px;
+}
+ul.list a{
+    color: rgb(251,116,84);
+    text-decoration: none;
+}
+ul.list li.title{
+    margin-left: -35px;
+    margin-right: 80px;
+    font-size: 18px;
+}
+ul.list li.title span{
+    font-size: 12px;
+}
+ul.list li img{
+    transform: scale(0.3);
+    margin-top: 8px;
+}
+ul li:nth-child(7){
+    margin-left: -18px;
+}
+span.trangle{
+    width: 0;
+    height: 0;
+    border: 8px solid red;
+    border-top-color: black;
+    border-bottom: none;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    margin-left: 5px;
+    margin-top: 45px;
+    display: inline-block;
+}
+/* 我的IMOOC详细内容 */
+ul.detail{
+    width: 120px;
+    height: 300px;
+    border: 1px solid rgb(251,116,3);
+    list-style: none; 
+    position: absolute;
+    top: 60px;
+    right: 240px;
+    font-size: 14px;
+    line-height: 27px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: none;
+    font-size: 13px;
+    color: rgb(133, 131, 131);
+    background-color: rgb(255, 255, 255);
+}
+ul.detail li:hover{
+    color: black;
+    cursor: pointer;
+}
+ul.detail li:nth-child(2),
+ul.detail li:nth-child(3),
+ul.detail li:nth-child(5),
+ul.detail li:nth-child(6),
+ul.detail li:nth-child(8),
+ul.detail li:nth-child(9){
+    border-bottom: 1px dotted  rgb(133, 131, 131);
+}
+ul.detail li{
+    margin:0px 5px
+}
+.showDetail{
+    display: block;
+}
+/* 中间部分样式设置 */
+.main{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+.main .redit{
+    width: 900px;
+    height: 480px;
+    border: 0.7px solid rgb(251,116,84);
+    border-radius: 7px;
+} 
+.main .index{
+    height: 27px;
+    vertical-align: middle;
+    padding-top:8px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.redit .reditTitle{
+    background-color: rgb(251,116,3);
+    border-radius: 7px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    color: ivory;
+}
+/* 账户注册信息样式 */
+.reditMessage{
+    width: 780px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.reditMessage span.text{
+    text-align: right;
+    display:inline-block;
+    width: 90px;
+    height: 22px;
+    line-height: 42px;
+}
+.reditMessage input,.reditMessage select{
+    width: 250px;
+    height: 22px;
+}
+.reditMessage select{
+    width: 255px;
+    height: 22px;
+    margin-left: 5px;
+}
+.reditMessage button{
+    width: 80px;
+    height: 22px;
+    margin:0 auto;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+span.confirm{
+    width: 140px;
+    height: 22px;
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+}
+span.confirm span.confirmBox{
+    width: 40px;
+    height: 5px;
+    display: inline-block;
+    margin-left: 1px;
+    background-color: gray;
+}
+/* 姓名填写规则 */
+span.confirmName{
+    text-decoration: underline;
+    color: rgb(251,116,3);
+    font-size: 13px;
+    display: inline-block;
+    width: 300px;
+}
+ul.nameDetail{
+    width: 320px;
+    height: 300px;
+    border: 1px solid rgb(251,116,3);
+    list-style: none; 
+    position: absolute;
+    top: 350px;
+    right: 70px;
+    font-size: 14px;
+    line-height: 27px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: none;
+    font-size: 13px;
+    color: rgb(133, 131, 131);
+    background-color: rgb(255, 255, 255);
+}
+ul.nameDetail li{
+    line-height: 32px;
+    margin-top: 5px;
+}
+/* 尾部样式设置 */
+.footer{
+    border-top: 1px solid rgb(36,135,201);
+    border-bottom: none;
+}
+.footer p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 13px;
+}

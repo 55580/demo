@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 100%;
+}
+.header,.footer{
+    width: 100%;
+    height: 60px;
+    background: #169bd5;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 480px;
+    vertical-align: top;
+    border: 1px solid rgb(211, 209, 209);
+}
+.left{
+    width: 12%;
+    border: 1px solid rgb(211, 209, 209);
+}
+.left ul{
+    margin: 50px 8% 30px 10px;
+    padding: 0;
+    list-style: none;
+}
+.left ul li{
+    margin-top: 15px;
+    font-size: small;
+}
+.right{
+    width: 88%;
+    border: 1px solid rgb(211, 209, 209);
+    font-size: small;
+}
+.goods,.goods tr td{
+    border: 0.5px solid rgb(211, 209, 209);
+    text-align: center;
+    height: 54px;
+}
+.main img{
+    width: 50px;
+    height: 50px;
+}

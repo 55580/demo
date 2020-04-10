@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.sky {
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(rgb(196, 228, 253),rgba(255, 255, 255, 0.904));
+}
+.ground{
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(rgba(255, 255, 255, 0.966),rgb(148, 190, 89));
+    position: relative;
+    z-index: 1;
+}
+.ground img{
+    width: 160px;
+    height: 170px;
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    right: 200px;
+}
+.clound{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #ffffff;
+    position: relative;
+    left: 100%;
+    top: 40px;
+    transform: scale(0.8);
+}
+.clound::before{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 140px;
+    border-radius: 60%/ 30%;
+    background: #ffffff;
+    position: absolute;
+    left: -70px;
+    top: 45px;
+    transform: rotate(-20deg);
+}
+.clound::after{
+    content: "";
+    display: block;
+    width: 320px;
+    height: 100px;
+    border-radius: 30% / 90% 90% 90% 90%;
+    background: #ffffff;
+    position: absolute;
+    left: -120px;
+    top: 70px;
+    transform: rotate(-2deg);
+}
+.c1{
+    z-index: 2;
+    animation: c1 8s ease infinite both;
+}
+@keyframes c1{
+    from{right: -5px;}
+    to{left: -180px;}
+}
+.c2{
+    position: absolute;
+    top: -15px;
+    opacity: 0.8;
+    transform: scale(0.8);
+    z-index: 1;
+    animation: c2 12s ease infinite both;
+} 
+@keyframes c2{
+    from{right: -10px;}
+    to{left: -180px;}
+}
+.c3{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    opacity: 0.7;
+    transform: scale(0.7);
+    z-index: 1;
+    animation: c3 10s ease infinite both;
+}
+@keyframes c3{
+    from{right: 10px;}
+    to{left: -180px;}
+}
+.c4{
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    opacity: 0.6;
+    transform: scale(0.6);
+    z-index: 1;
+    animation: c4 12s ease-in infinite both;
+}
+@keyframes c4{
+    from{right: -50px;}
+    to{left: -190px;}
+}
+.c5{
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    opacity: 0.6;
+    transform: scale(0.5);
+    z-index: 1;
+    animation: c5 14s ease-in infinite both;
+}
+@keyframes c5{
+    from{right: -50px;}
+    to{left: -190px;}
+}

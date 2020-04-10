@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Microsoft YaHei UI;
+}
+body{
+    width: 100%;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    visibility:hidden;
+    display:block;
+    content:"";
+    clear:both;
+    height:0;
+    }
+/* 设置头部样式 */
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #07cbc9;
+    text-align: center;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+/* 设置头部样式 */
+.header a img{
+    float: left;
+    margin-left: 100px; 
+    margin-top: 16px;
+}
+.header ul{
+    float: right;
+    list-style: none;
+    margin-right: 6%;
+}
+.header ul li{
+    float:left;
+    /* margin-left: 15px; */
+    /* 需要优化 */
+    padding:0 10px;
+}
+.header a{
+    color:rgb(245, 238, 238);
+}
+.header ul li:hover{
+    background:rgb(221, 104, 25);
+}
+/* 设置banner图的样式 */
+/* 设置banner图的宽度和高度 */
+.banner{
+    width:100%;
+    height: 600px;
+    top: 80px;
+    padding-top: 80px;
+}
+.image img{
+    width: 100%;
+    height: 600px;  
+    position: absolute;
+}
+/* 设置半透明遮挡 */
+.topLayer{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(15, 15, 8);
+    opacity: 0.5;
+    z-index: 2;
+}
+.topLayer .input{
+    /* 让网页子input文本框自适应 */
+    /* width: 509px; */
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -254.5px;
+    margin-top: -189px;
+}
+.input input{
+    width: 505px;
+    height: 39px;
+    margin-top: 6px;
+    background: none;
+    color: rgb(232, 235, 235);
+    border: 2px solid  rgb(171, 172, 172);
+}
+/* 文字没有居中 */
+#commont{
+    height: 115px;
+}
+.input button{
+    width: 123px;
+    height: 39px;
+    margin-top: 6px;
+    background: none;
+    color: rgb(232, 235, 235);
+    margin-left:189px;
+    border: 2px solid  rgb(171, 172, 172);
+}
+/* 设置鼠标经过表单边框颜色变化 */
+.input input:hover{
+    border:2px solid #07cbc9;
+}
+.input button:hover{
+    border:none;
+    background: #07cbc9;
+}
+/* 设置about区 */
+.about{
+    width:100%;
+}
+.about .top,.gallery .top{
+    height:100px;
+}
+.about .top h2,.gallery .top h2{
+    height: 31px;
+    text-align: center;
+    margin-top:30px;
+}
+.about .top .line,.gallery .top .line{
+    text-align: center;
+    margin-top: -20px;
+    font-size: 900;
+    font-weight:bolder;
+    color: #07cbc9;
+}
+.about .top .introduce,.gallery .top .introduce{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 10px;
+    color: rgb(139, 137, 134);
+    font-size: 10px;
+}
+.about .middle{
+    width: 1200px;
+    height: 400px;
+    margin:20px auto;
+    margin-right: 60px;
+}
+.about .middle .left{
+    float: left;
+    position: absolute;
+    z-index: 2;
+}
+.about .middle .left .title{
+    width:150px;
+    height: 40px;
+    margin-left: 20px;
+}
+.about .middle .left .introduce{
+    width: 335px;
+    height: 126px;
+    border: 1px solid rgb(177, 173, 173);
+    padding: 20px 20px 100px 15px;
+    background: rgba(252, 250, 250, 0.534);
+}
+.about .middle .left button{
+    width:102px;
+    height: 45px;
+    border: none;
+    background:black;
+    color: #fff;
+    margin-top: 20px;
+}
+.about .middle .left button:hover{
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+}
+.about .middle .m-middle{
+    width: 568px;
+    height: 380px;
+    float: left;
+    position: relative;
+    left: 220px;
+}
+.about .middle .m-middle img{
+    width: 568px;
+    height: 380px;
+}
+.about .right{
+    float: right;
+    position: relative;
+    right: 140px;
+}
+.about .right div{
+    width: 238px;
+    height: 144px;
+    border: 1px solid #07cbc9;
+    text-align: center;
+}
+.about .right .foot{
+    margin-top: 20px;
+}
+.about .right .top h3,.about .right .foot h3{
+    margin-top: 30px;
+}
+.about .right .top h3 span,.about .right .foot h3 span{
+    margin-top: -10px;
+    display: block;
+    color: #07cbc9;
+}
+.about .right .top h4,.about .right .foot h4{
+    margin-top: 10px;
+}
+/* 设置about区的底部 */
+.foot{
+    width: 100%;
+}
+.foot .img-word,.foot .word{
+    width: 25%;
+    height: 316px;
+    float: left;
+    background: #07cbc9;
+    margin-top: -2px;
+    padding: 0;
+    color: #fff; 
+}
+.foot div img{
+    width: 100%;
+    height: 316px;
+}
+/* 设置上行文字右箭头 */
+.foot .word-right{
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 15px 12px 30px;
+    border-color: transparent transparent transparent #07cbc9;
+    top: 45%;
+    right: -100%;
+}
+/* 设置下行文字左箭头 */
+.foot .word-left{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 30px 12px 15px;
+    border-color: transparent  #07cbc9 transparent transparent;
+    position: relative;
+    top: 45%;
+    left: -45px;
+}
+/* 设置about区文字-图片中文字的样式 */
+.foot .word h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 5px 30px 20px 30px;
+}
+.foot .word p{
+    width: 280px;
+    font-size: 12px;
+    margin: 0 30px 20px 30px;
+    line-height: 20px;
+}
+.foot .word p span{
+    width: 270px;
+    display: block;
+    font-size: 10px;
+    margin: 10px 30px 20px 0px;
+}
+.foot .word button{
+    width:97px;
+    height: 40px;
+    border: none;
+    background:black;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 107px;
+}
+.foot .word button:hover{
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+}
+/* 设置gallery的样式 */
+.gallery{
+    width: 1190px;
+    height: 800px;
+    margin: 0 auto;
+}
+/* 设置gallery下部分样式 */
+.gallery .botton{
+    width: 1200px;
+    height: 620px;
+    padding:50px 30px 30px 30px;
+}
+.gallery dl{
+    float: left;
+    width: 360px;
+    height: 304px;
+    margin: 20px;
+    /* margin-left: 20px;
+    margin-bottom: 20px; */
+}
+.gallery dl img{
+    float: left;
+    width: 360px;
+    height: 240px;
+    position: absolute;
+}
+.gallery dd:nth-child(2)
+{
+    width: 360px;
+    height: 64px;
+    position: relative;
+    top:240px;
+    background: black;
+    color: blanchedalmond;
+}
+.gallery dd p{
+    position: relative;
+    top: 22px;
+    left: 15px;
+    font-size: 15px;
+}
+/* 设置页面底部样式 */
+.footer{
+    width: 100%;
+    height: 80px;
+    background:#07cbc9;
+    margin-top: 30px;
+}
+.footer p{
+    width: 300px;
+    padding:30px 38% 30px 42%;
+    color: #fff;
+    font-size: 12px;
+}

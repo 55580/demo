@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    height: 30px;
+    background-color: rgb(245,245,245);
+}
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    height: 80px;
+    /* background-color: aliceblue; */
+}
+.nav{
+    height: 36px;
+    background-color: #60bff2;
+}
+.banner{
+    width: 802px;
+    margin: 0 auto;
+    height: 414px;
+    padding:9px 0 0 198px
+}
+.banner-slider{
+    width: 544px;
+    height: 414px;
+    background-color: #8bddf3;
+    float: left;
+}
+.banner-search{
+    float: right;
+    width: 250px;
+    height: 255px;
+    background-color: #fafafa;
+}
+.banner-help{
+    float: right;
+    width: 250px;
+    height: 146px;
+    margin-top: 12px;
+    background-color: #fafafa;
+    text-align: center;
+}
+.content{
+    width: 1000px;
+    height: 476px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.content-tab{
+    width: 742px;
+    height: 476px;
+    float: left;
+    margin-top: 10px;
+    border: 0.5px solid #bdbdbe;
+}
+.tab{
+    width: 742px;
+    height: 34px;
+    background-color: #f4f6fa;
+    font-size: 14px;
+    /* margin-top: 10px; */
+}
+.tab-hospital{
+    width: 112px;
+    height: 34px;
+    background-color: #00b3ea;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+}
+.tab-department{
+    width: 112px;
+    height: 34px;
+    /* background-color: #00b3ea; */
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    /* color: #fff; */
+}
+.news,
+.close{
+    width:250px;
+    height: 233px;
+    float: right;
+    margin-top: 10px;
+    border: 0.5px solid  #f4f6fa;
+}
+.news-caption,
+.close-caption{
+    width: 250px;
+    height: 38px;
+    background-color: #f4f6fa;
+}
+.footer{
+    height: 70px;
+    background-color: #eceef2;
+    color: #bdbdbe;
+    font-size: 12px;
+    text-align: center;
+    line-height: 70px;
+}

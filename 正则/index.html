@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <div class="headerBox">
+            <img src="img/logo.png" alt="" class="logo">
+            <!-- <p class="title">慕课高铁客户服务中心|<span>客户服务</span></p> -->
+            <ul class="list">
+                <li class="title">慕课高铁客户服务中心|<span>客户服务</span></li>
+                <li>意见反馈</li>
+                <li><a href="">imooc@com</a></li>
+                <li>您好，请&nbsp;<a href="">登录</a>&nbsp;&nbsp;|注册</li>
+                <li>
+                    <a href="" id="myImooc" >我的IMOOC<span class="trangle"></span></a>
+                </li>
+                <li><img src="img/未标题-1.png" alt=""></li>
+                <li>手机版</li>
+            </ul>
+            <ul class="detail">
+                <li>未完成订单</li>
+                <li>已完成订单(改/退)</li>
+                <li>我的保险</li>
+                <li>查看个人信息</li>
+                <li>账户安全</li>
+                <li>常用联系人</li>
+                <li>重点旅客预约</li>
+                <li>遗失物品找回</li>
+                <li>服务查询</li>
+                <li>投诉</li>
+                <li>建议</li>
+            </ul>
+        </div>
+    </header>
+    <!-- 中间部分 -->
+    <main class="main">
+        <p class="index">
+            您现在的位置：<span>客运首页&nbsp;>&nbsp;注册</span>
+        </p>
+        <div class="redit">
+            <p class="reditTitle">账户信息</p>
+            <form  methon="post" class="reditMessage">
+                <span class="text">用户名：</span>
+                <input type="text" class="text" class="text"name="username" id="username" title="用户名">
+                <span class="confirm"></span><br>
+                <span class="text">登录密码：</span>
+                <input type="text" class="text" class="text"name="passwd" id="passwd" title="登录密码">
+                <span class="confirm" >
+                    <span class="confirmBox"></span>
+                    <span class="confirmBox"></span>
+                    <span class="confirmBox"></span>
+                </span><br>
+                <p class="pwd"></p>
+                <span class="text">确认密码：</span>
+                    <input type="text" class="text" class="text"name="confirmpwd" id="confirmpwd" title="确认密码">
+                <span class="confirm"></span><br>
+                <span class="text">姓名：</span>
+                    <input type="text" class="text" class="text"name="name" id="uname" title="姓名">
+                <span class="confirmName">姓名填写规则</span><br>
+                <ul class="nameDetail">
+                    <li>1.确认姓名中生僻字无法输入时,可用生僻字拼音或同音字替代。</li>
+                    <li>2.输入姓名保存后,遇有系统无法正确显示的汉字,可用该汉字的拼音或同音字重新修改后保存。</li>
+                    <li>3.姓名中有繁体字无法输入时,可用简体替代。</li>
+                    <li>
+                        4.姓名较长,汉字与英文字符合计超过30个( 1个汉字算2个字符)的，需按姓名中第一
+                        个汉字或英文字符开始按顺序连续输入30个字符(空格字符不输入) , 其中英文字符输
+                        入时不区别大小写
+                    </li>
+                    
+                </ul>
+                <span class="text">证件类型：</span>
+                <select name="idType" id="idType" title="证件类型">
+                    <option value="pleaseSelect">请选择</option>
+                    <option value="personerId">二代居民身份证</option>
+                    <option value="passport">护照</option>
+                    <option value="passportHa">港澳通行证</option>
+                    <option value="passportT">台湾通行证</option>
+                </select><br>
+                <span class="text">证件号：</span>
+                <input type="text" class="text" class="text"name="userId" id="userId" title="证件号">
+                <span class="confirm"></span><br>
+                <span class="text">邮箱：</span>
+                <input type="text" class="text" class="text"name="email" id="email" title="邮箱">
+                <span class="confirm"></span><br>
+                <span class="text">手机号：</span>
+                <input type="text" class="text" class="text"name="phoneNum" id="phoneNum" title="手机号">
+                <span class="confirm"></span><br>
+                <span class="text">
+                    旅客类型：</span><select name="sex" id="sex" title="旅客类型">
+                    <option value="children">儿童</option>
+                    <option value="adult">成人</option>
+                </select><br>
+                <a href="https://www.imooc.com/">
+                    <button id="btn" >提交</button>
+                </a>
+                
+            </form>
+        </div>
+    </main>
+    <!-- 脚部 -->
+    <footer class="footer">
+        <p class="about">关于我们|网站声明</p>
+        <p class="copyright">copyright&copy;2017imooc All Rights Reserved|京ICP备13046642号-2</p>
+    </footer>
+</body>
+</html>
+<script src="js/index.js"></script>
